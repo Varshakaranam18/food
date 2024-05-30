@@ -13,7 +13,11 @@ const app = express();
 const port = 4000;
 
 // middleware
-app.use(cors());
+app.use(cors({
+    origin:["https://vercel.com/varshakaranam18s-projects/food-eb4r/6vxg5rq2VVBtDhVNEK9Dq2FWjNPv"],
+    methods:["POST","GET"],
+    credentials:true
+}));
 app.use(express.json());
 
 
