@@ -14,7 +14,7 @@ const port = 4000;
 
 // middleware
 app.use(cors({
-    origin:["https://vercel.com/varshakaranam18s-projects/food-eb4r/6vxg5rq2VVBtDhVNEK9Dq2FWjNPv"],
+    origin:["https://food-8p36.vercel.app"],
     methods:["POST","GET"],
     credentials:true
 }));
