@@ -23,7 +23,7 @@ const Verify = () => {
             }
         } catch (error) {
             console.error("Error verifying payment:", error); // Logging error for debugging
-            navigate("/error");
+            
         }
 
     }
